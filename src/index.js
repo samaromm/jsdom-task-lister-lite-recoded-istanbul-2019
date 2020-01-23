@@ -4,8 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   TaskForm.addEventListener('submit',(e) =>{
     e.preventDefault();
     let item = document.getElementById('new-task-description').value;
-    var text= document.createElement('li');
-    text.textContent=item;
+    let del= document.createElement('span');
+    del.textContent=
+    var forLi= document.createElement('li');
+    forLi.textContent=item;
     document.getElementById('tasks').appendChild(text);
   });
 });
