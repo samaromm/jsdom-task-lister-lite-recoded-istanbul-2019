@@ -10,6 +10,9 @@ body {
   background: linear-gradient(pink, violet);
 }
 
+.close{
+  
+}
 button {
   font-size: 7px;
 }
