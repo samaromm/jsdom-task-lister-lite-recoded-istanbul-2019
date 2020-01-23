@@ -16,5 +16,5 @@ document.addEventListener("DOMContentLoaded", () => {
       var div = this.parentElement;
       div.style.display = "none";
     }
-  });
+  }});
 });
