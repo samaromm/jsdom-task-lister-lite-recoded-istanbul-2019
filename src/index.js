@@ -3,5 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   function todo(){
     let item = document.getElementById('new-task-description').value;
     var text= document.createElement('li').innerHTML(item);
+    
   }
 });
