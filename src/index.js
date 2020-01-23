@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     del.textContent="\u00D7";
     var forLi= document.createElement('li');
     forLi.textContent=item;
-    document.getElementById('tasks').appendChild(text);
+    forLi.appendChild(del);
+    document.getElementById('tasks').appendChild(forLi);
   });
 });
