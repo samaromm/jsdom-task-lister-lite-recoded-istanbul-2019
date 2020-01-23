@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  function 
+  function todo(){
+    let 
+  }
 });
