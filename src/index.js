@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let del= document.createElement('span');
     del.textContent="\u00D7";
     var forLi= document.createElement('li');
-    forLi.textContent=item;
+    forLi.textContent=item+'      ';
     forLi.appendChild(del);
     document.getElementById('tasks').appendChild(forLi);
   });
