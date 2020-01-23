@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     forLi.textContent=item+'      ';
     forLi.appendChild(del);
     document.getElementById('tasks').appendChild(forLi);
-    
+    for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
   });
 });
