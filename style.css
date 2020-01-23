@@ -10,8 +10,8 @@ body {
   background: linear-gradient(pink, violet);
 }
 
-.close:hover{
-  cursor: ;
+.close{
+  cursor:pointer ;
 }
 button {
   font-size: 7px;
