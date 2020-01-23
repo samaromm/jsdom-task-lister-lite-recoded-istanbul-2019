@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let item = document.getElementById('new-task-description').value;
     
     let del= document.createElement('span');
-    let ex = document.createTextNode()
-    del.textContent="\u00D7";
+    let ex = document.createTextNode('')
+    del.textContent="";
     del.className='close';
     
     var forLi= document.createElement('li');
