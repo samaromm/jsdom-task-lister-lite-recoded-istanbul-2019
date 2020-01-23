@@ -11,7 +11,7 @@ body {
 }
 
 .close{
-  
+  cursor: pointer;
 }
 button {
   font-size: 7px;
