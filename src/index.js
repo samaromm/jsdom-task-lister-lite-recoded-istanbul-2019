@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   TaskForm.addEventListener('submit',(e) =>{
     e.preventDefault();
     let item = document.getElementById('new-task-description').value;
-    var text= document.createElement('li').innerHTML=item;
+    var text= document.createElement('li');
+    text.textContent=item;
     document.getElementById('tasks').appendChild(text);
   });
 });
